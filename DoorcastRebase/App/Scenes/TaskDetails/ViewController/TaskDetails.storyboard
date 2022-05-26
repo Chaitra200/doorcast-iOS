@@ -220,7 +220,7 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <connections>
-                                            <action selector="startStopDayAction:" destination="hmM-88-H8e" eventType="touchUpInside" id="HGj-Rh-ClF"/>
+                                            <action selector="startStopDayAction:" destination="hmM-88-H8e" eventType="touchUpInside" id="e6T-3I-h1f"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1117,7 +1117,7 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <connections>
-                                            <action selector="startStopDayAction:" destination="5vD-2o-eYM" eventType="touchUpInside" id="fWC-s7-2O2"/>
+                                            <action selector="startStopDayAction:" destination="5vD-2o-eYM" eventType="touchUpInside" id="uUy-zu-d8Q"/>
                                         </connections>
                                     </button>
                                 </subviews>

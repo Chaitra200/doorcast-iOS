@@ -331,6 +331,16 @@ class TaskDetailsVC: UIViewController,CLLocationManagerDelegate {
         
     }
     
+    @IBAction func startStopDayAction(_ sender: Any) {
+
+            print("startStopDayAction")
+
+            self.speechView.isHidden = true
+
+            dayTaskAction()
+
+        }
+    
     
     @IBAction func menuButtonAction(_ sender: Any) {
         guard let vc = NotificationCenterVC.newInstance else {return}
