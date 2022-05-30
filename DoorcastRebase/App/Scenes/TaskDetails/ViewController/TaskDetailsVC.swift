@@ -110,13 +110,11 @@ class TaskDetailsVC: UIViewController,CLLocationManagerDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         
-        
-//
-//        DispatchQueue.main.async {
+        DispatchQueue.main.async {
 //
 //            self.viewModel1?.callExstreamTaskLocationAPI(taskidcheck: defaults.string(forKey: UserDefaultsKeys.task_id_cipher) ?? "", taskid: defaults.string(forKey: UserDefaultsKeys.task_id) ?? "")
 //
-//        }
+        }
         print(defaults.string(forKey: UserDefaultsKeys.task_id_cipher))
         print(defaults.string(forKey: UserDefaultsKeys.task_id))
         
